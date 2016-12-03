@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+
+	"name": "FV VK Support",
+	"description": "Оповещения о новых сообщениях в чатах группы/страницы",
+	"version": "1.0",
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+    "options_ui": {
+        // Required.
+        "page": "options.html",
+        // Recommended.
+        "chrome_style": true
+    },
+
+	"permissions": [
+			"tabs",
+			"https://api.vk.com/",
+			"notifications",
+			"storage"
+	],
+	"browser_action": {
+		"default_icon": "icon48-2.png",
+		"default_title": "Go FV VK Support"
+	}
+}

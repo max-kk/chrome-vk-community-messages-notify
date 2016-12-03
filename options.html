@@ -1,0 +1,42 @@
+<!-- https://developer.chrome.com/extensions/optionsV2 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VK page/group messages notify settings</title>
+  <style>
+    body: { padding: 10px; }
+    .input-full { width: 100%; }
+    #status { font-weight: bold; color: red; }
+  </style>
+</head>
+
+<body>
+  <a href="https://res.cloudinary.com/dxo61viuo/image/upload/v1480514150/chrome/vk_token_create.png">Access_token</a> для группы/страницы c доступом к сообщениям:
+  <input type="text" id="vkAccessToken" class="input-full"/>
+  <br/><br/>
+  
+  Ссылка на сообщения группы:
+  <input type="text" id="vkImLink" placeholder="https://vk.com/gim47403006"/>
+  <br/>
+  <small>Пример: https://vk.com/gim47403006</small>
+  <br/><br/>
+
+  Частота обновления:
+  <select id="vkRefreshFreq">
+    <option value="60">Раз в минуту</option>
+    <option value="300">Раз 5 минут</option>
+    <option value="900">Раз 15 минут</option>
+  </select>
+  <br/><br/>  
+
+
+  
+  <button id="save">Сохранить</button>
+  &nbsp;&nbsp;
+  <span id="status"></span>
+  <br/><br/>
+  <a href="http://maxim-kaminsky.com/chrome-vk-community-messages-notify/">О дополнении</a>
+
+  <script src="options.js"></script>
+</body>
+</html>
