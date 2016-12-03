@@ -7,12 +7,15 @@ Version 1.1
 ### Скриншоты
 
 Настройки:
+
 ![settings](https://res.cloudinary.com/dxo61viuo/image/upload/v1480773098/chrome/cmn-settings-1.png)
 
 Оповещение:
+
 ![notification](https://res.cloudinary.com/dxo61viuo/image/upload/v1480773098/chrome/cmn-notify.png)
 
 Иконка:
+
 ![icon](https://res.cloudinary.com/dxo61viuo/image/upload/v1480773097/chrome/cmn-icon.png)
 
 ### Установка
